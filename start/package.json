@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@bufbuild/protoc-gen-connect-web": "^0.1.0",
+    "@bufbuild/protoc-gen-es": "^0.0.10"
+  },
+  "dependencies": {
+    "@buf/grpc_web_googleapis_googleapis": "^1.7.882",
+    "@bufbuild/connect-web": "^0.1.0",
+    "@bufbuild/protobuf": "^0.0.10"
+  }
+}
