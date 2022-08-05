@@ -1,0 +1,15 @@
+version: v1
+plugins:
+  - name: cpp
+    out: gen/proto/cpp
+  - name: java
+    out: gen/proto/java
+  - name: go
+    out: gen/proto/go
+    opt:
+      - paths=source_relative
+  - name: go-grpc
+    out: gen/proto/go
+    opt:
+      - paths=source_relative
+      - require_unimplemented_servers=false
